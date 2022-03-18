@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="ja">
+    <head>
+        <meta charset="UTF-8">
+        <title>portfolio</title>
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.4/css/all.css">
+        <link rel ="stylesheet" href="style.css">
+        <script str="main.js"></script>
+    </head>
+    <body>
+        <script src = "main.js"></script>
+        <h1>portfolio</h1>
+        <p>産業技術短期大学校 情報技術科1年 元良優作</p>
+ 
+        <div id="content">
+            <a href="#reason">応募理由</a> <a href="#introduction">自己紹介</a> <a href="#result">成果物</a>
+        </div>    
+        <div class="mainVisual">
+            <div id="home">
+                    <br>
+                    <h2>私が普段どんな勉強をどう考えながらやってきたのか,</h2>
+                    <h2>どんな人物なのか、なぜ御社を志望するのかを私なりにまとめました。</h2>
+                    <br>  
+            </div>
+        </div>
+        <ol>
+            <li id="reason">応募理由</li>
+            <p>私は、インターンシップ、会社説明会を通して和やかな雰囲気、「ユーザーファースト」という企業理念、<br>
+                計画から運用までできる自社開発という環境に惹かれ御社を希望しました。</p>
+            <li id="introduction">自己紹介</li>
+            <p>産業技術短期大学校で1年間プログラミングやweb制作について学んできました。今年に入っ<br>
+                てからは10月に受けた基本情報技術者試験の結果が惜しかったということもあり、以前にも<br>
+                まして自宅での自主学習にも力を入れて取り組んでいます。</p>
+            <br>
+            <br>
+            <p>
+                私は今java、C言語、js、html&cssの4つを学んでいます。ただjavaとjsに関しては後期か<br>
+                ら始まったので今は基礎的なことをやっている段階です。javaに関しては、初めはC言語と<br>
+                の違いになれずだいぶ苦戦しましたが今年あたりから理解がだいぶ追いついてきました。<br>
+                jsに関しては、授業だけだと圧倒的に理解が追い付かないので自宅でプロゲートや忍者コード<br>
+                を使いながら学習しています。まだ授業と同じ段階には到達できてなく、奮闘中です。</p>
+            <br>
+            <br>
+            <li id="result">成果物</li>
+            <ul>
+                <p>授業の中で制作したものを2つ紹介します。</p>
+                <li>Java</li>
+                <p>データの中から特定の列のデータだけを取り出すプログラミングを作成しました。<br>
+                    「メソッドやフィールドが何用で使われているのか、わからないことは１個ずつはっ<br>
+                    きりさせる」ということを意識して作成しました。
+                </p>
+                <a href="java.html">ソースコードと実行結果はこちらから</a>
+                <li>HTML、CSS、JavaScript、SQL</li>
+                <p>データを編集するページとそれへのサインアップ、サインイン、ログアウト機能<br>
+                を加えたものの作成をしました。資料を基にプログラムの足りない部分を作成する<br>
+                という課題です。一つ一つどう動作するのか、どういうことを表しているのかを考<br>
+                えながら作成しました。</p>
+                <a href="js.html">実行結果はこちらから</a>
+            </ul>
+        </ol>
+        <a href="#" class="gotop">トップへ</a>
+    </body>  
+    <footer>
+        <br>
+        <p>電話番号</p>
+        <a href="tel:080-9019-3983">080-9019-3983</a>
+        <p>メールアドレス</p>
+
+        <form metod="post" name="form1" action="result.html">
+            氏名（必須）　　：<input type="text" placeholder="元良優作" name="input01" size="20"><br/>
+            メールアドレス（必須）：<input type="text" placeholder="y21520@iwate-it.ac.jp" name="input02" size="20"><br/>
+            <input type="submit" value="送信" onclick="return checkForm();">
+        </form>
+    </footer>  
+</html>

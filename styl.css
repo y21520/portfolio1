@@ -1,0 +1,9 @@
+img{
+    text-align: center;
+    box-sizing: border-box;
+    height: 500px;
+    width: 1000px;
+}
+#title{
+    margin: 0;
+}
